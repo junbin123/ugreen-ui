@@ -56,6 +56,7 @@ export default Vue.extend({
   <div class="my-components-sample">
     <p>我是测试组件</p>
     <el-button>hello</el-button>
+    <el-tag>标签一</el-tag>
   </div>
 </template>
 

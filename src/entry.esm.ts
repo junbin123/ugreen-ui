@@ -1,7 +1,8 @@
-import _Vue, { PluginFunction,  } from 'vue'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-_Vue.use(ElementUI)
+import _Vue, { PluginFunction } from 'vue'
+// import 'element-ui/lib/theme-chalk/index.css'
+// import ElementUI from 'element-ui'
+
+// _Vue.use(ElementUI)
 
 // Import vue components
 import * as components from '@/lib-components/index'

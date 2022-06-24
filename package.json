@@ -1,6 +1,6 @@
 {
   "name": "junbin-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/my-components.ssr.js",
   "browser": "dist/my-components.esm.js",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "element-ui": "^2.15.9",
-    "junbin-components": "^1.0.0"
+    "junbin-components": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
