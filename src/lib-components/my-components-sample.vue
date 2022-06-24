@@ -1,6 +1,5 @@
 <script lang="ts">
 import Vue from 'vue';
-
 interface SampleData {
   counter: number;
   initCounter: number;
@@ -12,6 +11,8 @@ interface SampleData {
 
 export default Vue.extend({
   name: 'MyComponentsSample', // vue component name
+  components:{
+  },
   data(): SampleData {
     return {
       counter: 5,
