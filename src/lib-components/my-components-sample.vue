@@ -10,7 +10,7 @@ interface SampleData {
   };
 }
 
-export default /*#__PURE__*/Vue.extend({
+export default Vue.extend({
   name: 'MyComponentsSample', // vue component name
   data(): SampleData {
     return {
@@ -53,22 +53,8 @@ export default /*#__PURE__*/Vue.extend({
 
 <template>
   <div class="my-components-sample">
-    <p>The counter was {{ changedBy }} to <b>{{ counter }}</b>.</p>
-    <button @click="increment">
-      Click +1
-    </button>
-    <button @click="decrement">
-      Click -1
-    </button>
-    <button @click="increment(5)">
-      Click +5
-    </button>
-    <button @click="decrement(5)">
-      Click -5
-    </button>
-    <button @click="reset">
-      Reset
-    </button>
+    <p>我是测试组件</p>
+    <el-button>hello</el-button>
   </div>
 </template>
 
@@ -81,8 +67,5 @@ export default /*#__PURE__*/Vue.extend({
     background: green;
     text-align: center;
     padding: 25px;
-  }
-  .my-components-sample p {
-    margin: 0 0 1em;
   }
 </style>
