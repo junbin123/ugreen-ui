@@ -1,11 +1,11 @@
 {
-  "name": "junbin-components",
-  "version": "1.0.2",
+  "name": "ugreen-ui",
+  "version": "1.0.3",
   "description": "",
-  "main": "dist/my-components.ssr.js",
-  "browser": "dist/my-components.esm.js",
-  "module": "dist/my-components.esm.js",
-  "unpkg": "dist/my-components.min.js",
+  "main": "dist/ugreen-ui.ssr.js",
+  "browser": "dist/ugreen-ui.esm.js",
+  "module": "dist/ugreen-ui.esm.js",
+  "unpkg": "dist/ugreen-ui.min.js",
   "types": "dist/types/src/entry.esm.d.ts",
   "files": [
     "dist/*",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "element-ui": "^2.15.9",
-    "junbin-components": "^1.0.2"
+    "ugreen-ui": "^1.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

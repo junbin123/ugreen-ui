@@ -5480,27 +5480,6 @@ jstransformer@1.0.0:
     is-promise "^2.0.0"
     promise "^7.0.1"
 
-junbin-components@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/junbin-components/-/junbin-components-1.0.0.tgz#98ab24cde0fc66f7787ef89c405d367d566f8a7a"
-  integrity sha512-p+hsDWIHidt2qpN+bHl6wI9oqS+boIBY/15+N2LXiZqKipAVdMYhC0r++sgLWw3qf9tnYoW6yEdROkP9f5LC3A==
-
-junbin-components@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/junbin-components/-/junbin-components-1.0.1.tgz#5e611f70588b98cdd81782a1c266cc91a4495594"
-  integrity sha512-E+cHc2cH+2Webhnf8gsCXTnR6ooqQZ9DiHQFKtPeUdToAFpd/0sYXwv4Aw/9U0y63D6xvFtCdvLSZNJyaoI3sQ==
-  dependencies:
-    element-ui "^2.15.9"
-    junbin-components "^1.0.0"
-
-junbin-components@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/junbin-components/-/junbin-components-1.0.2.tgz#55f53bbc47d561da7ebe773dd30639bb663525cf"
-  integrity sha512-ILOTSqveLOvRUaTw29LMbAyE0zqpNPpUd+kEKXdHGU7UxiNGGEWJTJFvNDW0+5rN5Vf+Tm48+SLtVkak++Rlpg==
-  dependencies:
-    element-ui "^2.15.9"
-    junbin-components "^1.0.1"
-
 killable@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
@@ -8588,6 +8567,22 @@ uglify-js@3.4.x:
   dependencies:
     commander "~2.19.0"
     source-map "~0.6.1"
+
+ugreen-ui@^1.0.0, ugreen-ui@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/ugreen-ui/-/ugreen-ui-1.0.2.tgz#fa47bc24e62a18947a73d6b376795554ecdcc099"
+  integrity sha512-o3ef3bYP08z4sucCKw8xUMDqxQ7JS77RCvKUgtt4nYDE6cDKD0/1iXK5l3qwbe06CqhmsF24x+Dl3Qcv9z6WFQ==
+  dependencies:
+    element-ui "^2.15.9"
+    ugreen-ui "^1.0.0"
+
+ugreen-ui@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/ugreen-ui/-/ugreen-ui-1.0.3.tgz#6f4b62fa54a9957194b45160fe32221ed27a8810"
+  integrity sha512-zncsgpRsjSL7KAHt6Il2bTOjSToiY7b8K4+VAlfgilhy5o7nXvxhH9q39m9XRjKXSfBzJvh6mJWTaRTBWPsN8Q==
+  dependencies:
+    element-ui "^2.15.9"
+    ugreen-ui "^1.0.2"
 
 unbox-primitive@^1.0.2:
   version "1.0.2"

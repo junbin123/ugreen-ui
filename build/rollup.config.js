@@ -86,7 +86,7 @@ if (!argv.format || argv.format === 'es') {
     input: 'src/entry.esm.ts',
     external,
     output: {
-      file: 'dist/my-components.esm.js',
+      file: 'dist/ugreen-ui.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -125,7 +125,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/my-components.ssr.js',
+      file: 'dist/ugreen-ui.ssr.js',
       format: 'cjs',
       name: 'MyComponents',
       exports: 'auto',
@@ -154,7 +154,7 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/my-components.min.js',
+      file: 'dist/ugreen-ui.min.js',
       format: 'iife',
       name: 'MyComponents',
       exports: 'auto',

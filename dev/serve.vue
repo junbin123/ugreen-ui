@@ -1,12 +1,9 @@
 <script lang="ts">
 import Vue from 'vue';
-// Uncomment import and local "components" registration if library is not registered globally.
-// import { MyComponentsSample } from 'junbin-components';
 
 export default Vue.extend({
   name: 'ServeDev',
   components: {
-  //  MyComponentsSample,
   }
 });
 </script>
