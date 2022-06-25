@@ -22,6 +22,7 @@
     "postbuild": "rimraf ./dist/types/dev ./dist/types/src/entry.d.ts"
   },
   "dependencies": {
+    "debounce": "^1.2.1",
     "element-ui": "^2.15.9",
     "ugreen-ui": "^1.0.3"
   },
@@ -42,9 +43,12 @@
     "minimist": "^1.2.5",
     "rimraf": "^3.0.2",
     "rollup": "^2.52.8",
+    "rollup-plugin-scss": "^3.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-vue": "^5.1.9",
+    "sass": "^1.52.3",
+    "sass-loader": "^8.0.2",
     "ttypescript": "^1.5.12",
     "typescript": "^4.0.3",
     "vue": "^2.6.14",

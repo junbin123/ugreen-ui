@@ -1,9 +1,9 @@
 import Vue, { VNode } from 'vue';
 import Dev from './serve.vue';
 // 使用本地
-// import UgreenUI from '@/entry.esm';
+import UgreenUI from '@/entry.esm';
 // 使用npm
-import UgreenUI from 'ugreen-ui'
+// import UgreenUI from 'ugreen-ui'
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css'

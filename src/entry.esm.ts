@@ -1,15 +1,13 @@
 import _Vue, { PluginFunction } from 'vue'
-// import 'element-ui/lib/theme-chalk/index.css'
-// import ElementUI from 'element-ui'
-
-// _Vue.use(ElementUI)
 
 // Import vue components
 import * as components from '@/lib-components/index'
+console.log(1);
 
 // install function executed by Vue.use()
 const install: PluginFunction<any> = function installMyComponents(Vue: typeof _Vue) {
   Object.entries(components).forEach(([componentName, component]) => {
+    console.log(1,{componentName});
     Vue.component(componentName, component)
   })
 }
